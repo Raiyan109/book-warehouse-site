@@ -15,7 +15,7 @@ const Login = () => {
                 <h1 className='text-2xl font-medium text-primary mt-4 mb-12 text-center'>Log in to your account 🔐</h1>
 
                 <form onSubmit={handleFormSubmit}>
-                <div>
+                    <div>
                         <label htmlFor='email'>Email</label>
                         <input
                             type='email'
@@ -40,7 +40,10 @@ const Login = () => {
                         >
                             Login
                         </button>
+
                     </div>
+                    <div class="divider">OR</div>
+                    <button class="btn btn-outline">Continue With Google</button>
                 </form>
             </div>
         </div>
